@@ -1,0 +1,68 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://maven.apache.org/POM/4.0.0">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>org.sisioh</groupId>
+    <artifactId>baseunits-scala_2.10</artifactId>
+    <packaging>jar</packaging>
+    <description>baseunits-scala</description>
+    <version>0.0.1</version>
+    <name>baseunits-scala</name>
+    <organization>
+        <name>org.sisioh</name>
+    </organization>
+    <dependencies>
+        <dependency>
+            <groupId>org.scala-lang</groupId>
+            <artifactId>scala-library</artifactId>
+            <version>2.10.0</version>
+        </dependency>
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>4.8.1</version>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.mockito</groupId>
+            <artifactId>mockito-core</artifactId>
+            <version>1.9.5</version>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.scalaz</groupId>
+            <artifactId>scalaz-core_2.10</artifactId>
+            <version>6.0.4</version>
+        </dependency>
+        <dependency>
+            <groupId>org.sisioh</groupId>
+            <artifactId>scala-dddbase-spec_2.10</artifactId>
+            <version>0.0.1</version>
+        </dependency>
+    </dependencies>
+    <repositories>
+        <repository>
+            <id>TwitterRepository</id>
+            <name>Twitter Repository</name>
+            <url>http://maven.twttr.com/</url>
+            <layout>default</layout>
+        </repository>
+        <repository>
+            <id>TypesafeRepository</id>
+            <name>Typesafe Repository</name>
+            <url>http://repo.typesafe.com/typesafe/releases/</url>
+            <layout>default</layout>
+        </repository>
+        <repository>
+            <id>SisiohMavenRelaseRepository</id>
+            <name>Sisioh Maven Relase Repository</name>
+            <url>http://sisioh.github.com/scala-dddbase/repos/release/</url>
+            <layout>default</layout>
+        </repository>
+        <repository>
+            <id>SisiohMavenSnapshotRepository</id>
+            <name>Sisioh Maven Snapshot Repository</name>
+            <url>http://sisioh.github.com/scala-dddbase/repos/snapshot/</url>
+            <layout>default</layout>
+        </repository>
+    </repositories>
+</project>
